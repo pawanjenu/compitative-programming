@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/solution.dir/leetcode/1_easy/solution.cpp.o  -o solution 

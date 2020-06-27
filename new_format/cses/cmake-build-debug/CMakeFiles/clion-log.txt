@@ -1,0 +1,4 @@
+/home/pj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/201.7223.86/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/sdb7/online_coding/new_format/cses
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/sdb7/online_coding/new_format/cses/cmake-build-debug

@@ -1,0 +1,3 @@
+/mnt/sdb7/online_coding/new_format/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/sdb7/online_coding/new_format/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/sdb7/online_coding/new_format/cmake-build-debug/CMakeFiles/sol.dir

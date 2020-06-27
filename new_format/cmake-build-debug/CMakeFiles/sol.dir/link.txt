@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/sol.dir/leetcode/1221/solution.cpp.o  -o ../leetcode/1221/sol 

@@ -1,0 +1,12 @@
+w #2nd if w
+- #1st if
+9 #2nd if w9
+- #1st if
+e #2nd if w9e
+2 #2nd if w9e2
+- #1st if
+Z #else w9e2-Z
+3 #2nd if w9e2-Z3
+F #2nd if w9e2-Z3F
+5 #2nd if w9e2-Z3F5
+5F3Z-2e9w

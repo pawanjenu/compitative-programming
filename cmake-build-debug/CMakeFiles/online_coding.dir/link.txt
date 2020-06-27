@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/online_coding.dir/main.cpp.o  -o online_coding 

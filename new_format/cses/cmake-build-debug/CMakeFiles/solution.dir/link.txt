@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/solution.dir/Dynamic_Programming/temphk2/solution.cpp.o  -o ../Dynamic_Programming/temphk2/solution 

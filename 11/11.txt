@@ -1,0 +1,30 @@
+Example 1:
+Input: [4, 8, 10], key = 8
+Output: 8
+Explanation: The smallest number greater than or equal to '8' is '8' ;
+
+Example 2:
+Input: [2, 5, 11, 13, 18], key = 14
+Output: 18
+Explanation: The smallest number greater than or equal to '14' is '18';
+
+Example 3:
+Input: [8, 10, 15], key = 19
+Output: -1
+Explanation: There is no number greater than or equal to '19' in the given array.
+
+Example 1:
+Input: [2, 5, 11, 13, 18], target = 26
+Output: (2 11 13)
+Explanation: if you add the pair (2,11,13) it will give sum of "26";
+
+Example 2:
+Input: [4, 5, 11, 13, 18], key = 3
+Output: "SUM OF THREE NOT FOUND"
+Explanation: as the smallest element in the array is "4", we obviously 
+            cant make a pair of three elements equal to "3"
+
+Example 3:
+Input: [8, 10, 15], key = 19
+Output: -1
+Explanation: There is no number greater than or equal to '19' in the given array.
