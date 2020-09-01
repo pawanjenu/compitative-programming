@@ -1,50 +1,56 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
- 
-#define lli long long int
 #define ll long long
-#define li long int
-#define ld long double
-#define vi vector<int>
-#define vs vector<string>
-#define vll vector<long long>
-#define vl vector<long>
-#define vlli vector<long long int>
-#define pii pair<int, int>
-#define plli pair<lli, lli>
-#define endl "\n"  
-#define mod 1000000000+7
-
-void file_input(){
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    freopen("error.txt", "w", stderr);
-    #endif 
-return ;
-}
-bool pat(string &s1, string &s2, int n, int m){
-  if(n == 0 || m == 0){
-    if(n == 0)
-        return true;
-    return false;
-  }
-  if(s1[n-1] == s2[m-1])
-    return pat(s1, s2, n-1, m-1);
-  else
-    return pat(s1, s2, n, m-1);
-  }
+#define si(x) scanf("%d", &x)
+#define sc(x) scanf("%c", &x)
+#define sl(x) scanf("%lld", &x)
+#define pl(x) printf("%lld\n", x)
+#define pi(x) printf("%d\n", x)
+#define gu getchar_unlocked
+#define pu putchar_unlocked
+#define setbits __builtin_popcountll
+#define pb push_back
+#define mp make_pair
+#define MOD 1000000007
+#define speed ios::sync_with_stdio(false)
 
 int main(){
-    clock_t start,end;
-    start = clock();
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    file_input();
-    string s1, s2;
-    cin >> s1 >> s2;
-    cout << pat(s1, s2, s1.length(), s2.length());
-    end = clock();
-    cerr<<"time taken : "<<(double)(end-start)/CLOCKS_PER_SEC<<" secs"<<endl; 
-    return 0;
+	int t;
+	si(t);
+	while(t--){
+		int n, i;
+		si(n);
+		string s;
+		cin>>s;
+		int hasharr[26] = {};
+		for(i = 0; i < n; i++){
+			hasharr[s[i] - 'a']++;
+		}
+		int maxf = INT_MIN;
+		for(i = 0; i < 26; i++){
+			maxf = max(maxf, hasharr[i]);
+		}
+		if(n % 2 == 0){
+			if(maxf > n / 2){
+				int matches = maxf - (n / 2);
+				matches *= 2;
+				int ans = n - matches;
+				pi(ans);
+			}
+			else{
+				pi(n);
+			}
+		}
+		else{
+			if(maxf > (n / 2) + 1){
+				int matches = maxf - ((n / 2) + 1);
+				matches *= 2;
+				matches++;
+				pi(n - matches);
+			}
+			else{
+				pi(n - 1);
+			}
+		}
+	}
 }

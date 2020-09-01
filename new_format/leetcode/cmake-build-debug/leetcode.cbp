@@ -38,7 +38,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="solution">
-				<Option output="/mnt/sdb7/online_coding/new_format/leetcode/416 medium/solution" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/sdb7/online_coding/new_format/leetcode/hk1/solution" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/sdb7/online_coding/new_format/leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -60,7 +60,7 @@
 				</MakeCommands>
 			</Target>
 			<Target title="solution/fast">
-				<Option output="/mnt/sdb7/online_coding/new_format/leetcode/416 medium/solution" prefix_auto="0" extension_auto="0"/>
+				<Option output="/mnt/sdb7/online_coding/new_format/leetcode/hk1/solution" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/sdb7/online_coding/new_format/leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/sdb7/online_coding/new_format/leetcode/416 medium/solution.cpp">
+		<Unit filename="/mnt/sdb7/online_coding/new_format/leetcode/hk1/solution.cpp">
 			<Option target="solution"/>
 		</Unit>
 		<Unit filename="/mnt/sdb7/online_coding/new_format/leetcode/CMakeLists.txt">

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/solution.dir/416_medium/solution.cpp.o  -o "../416 medium/solution" 
+/usr/bin/c++  -g   CMakeFiles/solution.dir/hk1/solution.cpp.o  -o ../hk1/solution 

@@ -1,0 +1,12 @@
+Given an array of positive numbers and a positive number ‘k’
+find the maximum sum of any contiguous subarray of size ‘k’ 
+
+Input: [5, 2, 6, -2, 10, 15], k=3 
+Output: 23
+Explanation: Subarray with maximum sum is [-2, 10, 15]
+
+Input: [-10, 5, 2, 4, 5], k=2 
+Output: 9
+Explanation: Subarray with maximum sum is [4, 5]
+
+Input: [1, 2, 6, 4, 10, 15], k=3 

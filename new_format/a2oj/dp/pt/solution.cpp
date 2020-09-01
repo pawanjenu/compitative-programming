@@ -36,12 +36,11 @@ int solve (string s, int n) {
    for(auto it: ct){
        if(it.first != '?')
        if(it.second > mx){
-        //  cout << it.first <<" "<<it.second<<endl;
            mx = it.second;
            ele = it.first;
        }
    }
-  //  cout << ele<<" "<<mx<<endl;
+
    char ot;
    for(auto it: ct){
        if(it.first != '?' and it.first!= ele)

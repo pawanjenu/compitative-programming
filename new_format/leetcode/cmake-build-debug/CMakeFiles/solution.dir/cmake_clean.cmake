@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "../416 medium/solution"
-  "../416 medium/solution.pdb"
-  "CMakeFiles/solution.dir/416_medium/solution.cpp.o"
+  "../hk1/solution"
+  "../hk1/solution.pdb"
+  "CMakeFiles/solution.dir/hk1/solution.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.
