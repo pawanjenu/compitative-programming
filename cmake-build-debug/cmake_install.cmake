@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/sdb7/online_coding
+# Install script for directory: /home/pavan/Persnal/online_coding/compitative-programming
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/sdb7/online_coding/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,135 +8,139 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/sdb7/online_coding/cmake-build-debug"/>
+				<Option working_dir="/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/sdb7/online_coding/cmake-build-debug"/>
+				<Option working_dir="/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/sdb7/online_coding/cmake-build-debug"/>
+				<Option working_dir="/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="solution">
-				<Option output="/mnt/sdb7/online_coding/11/solution" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/sdb7/online_coding/cmake-build-debug"/>
+				<Option output="/home/pavan/Persnal/online_coding/compitative-programming/11/solution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/sdb7/online_coding/new_format/*"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/home/pavan/Persnal/online_coding/compitative-programming/new_format/*"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 solution"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 solution"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="solution/fast">
-				<Option output="/mnt/sdb7/online_coding/11/solution" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/sdb7/online_coding/cmake-build-debug"/>
+				<Option output="/home/pavan/Persnal/online_coding/compitative-programming/11/solution" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/sdb7/online_coding/new_format/*"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/home/pavan/Persnal/online_coding/compitative-programming/new_format/*"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 solution/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 solution/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fibo">
-				<Option output="/mnt/sdb7/online_coding/fibo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/sdb7/online_coding/cmake-build-debug"/>
+				<Option output="/home/pavan/Persnal/online_coding/compitative-programming/fibo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/sdb7/online_coding/new_format/*"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/home/pavan/Persnal/online_coding/compitative-programming/new_format/*"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibo"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fibo/fast">
-				<Option output="/mnt/sdb7/online_coding/fibo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/sdb7/online_coding/cmake-build-debug"/>
+				<Option output="/home/pavan/Persnal/online_coding/compitative-programming/fibo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/mnt/sdb7/online_coding/new_format/*"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/home/pavan/Persnal/online_coding/compitative-programming/new_format/*"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibo/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/mnt/sdb7/online_coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/sdb7/online_coding/11/solution.cpp">
+		<Unit filename="/home/pavan/Persnal/online_coding/compitative-programming/11/solution.cpp">
 			<Option target="solution"/>
 		</Unit>
-		<Unit filename="/mnt/sdb7/online_coding/fibo.cpp">
+		<Unit filename="/home/pavan/Persnal/online_coding/compitative-programming/fibo.cpp">
 			<Option target="fibo"/>
 		</Unit>
-		<Unit filename="/mnt/sdb7/online_coding/CMakeLists.txt">
+		<Unit filename="/home/pavan/Persnal/online_coding/compitative-programming/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
