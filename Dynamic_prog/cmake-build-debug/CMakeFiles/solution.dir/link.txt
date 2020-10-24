@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/solution.dir/n_queens/solution.cpp.o  -o "../n queens/solution" 
