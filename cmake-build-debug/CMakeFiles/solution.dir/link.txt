@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/solution.dir/11/solution.cpp.o  -o ../11/solution 

@@ -1,4 +1,0 @@
-/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/CMakeFiles/solution.dir
-/home/pavan/Persnal/online_coding/compitative-programming/cmake-build-debug/CMakeFiles/fibo.dir
